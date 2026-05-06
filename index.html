@@ -53,4 +53,35 @@
       background: #f3f4f6;
     }
 
+    .btn:hover {
+      background: #e5e7eb;
+    }
+  </style>
+</head>
+
+<body>
+
+<div id="panel">
+
+  <input
+    id="searchInput"
+    type="text"
+    placeholder="Пошук міст / сіл"
+  >
+
+  <button class="btn" onclick="toggleHydrants()">
+    🔥 Гідранти
+  </button>
+
+  <button class="btn" onclick="toggleWater()">
+    💧 Вода
+  </button>
+
+</div>
+
+<div id="map"></div>
+
+<script>
+
+let map;
 </html>

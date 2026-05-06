@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GIS Map</title>
+  <title>Maps System</title>
 
   <!-- Google Maps API -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAeRc4o5wN__tvYrXKNKYyrgcwQnvSnhQ&libraries=places"></script>
@@ -14,172 +14,282 @@
       padding: 0;
       height: 100%;
       font-family: Arial, sans-serif;
+      overflow: hidden;
     }
 
-    #map {
-      height: 100%;
+    #loginScreen {
+      position: fixed;
+      inset: 0;
+      background: #111827;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+
+    #loginBox {
+      background: #1f2937;
+      padding: 30px;
+      border-radius: 12px;
+      width: 320px;
+      color: white;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    }
+
+    #loginBox input {
       width: 100%;
+      padding: 12px;
+      margin-top: 15px;
+      border-radius: 8px;
+      border: none;
+      box-sizing: border-box;
+      font-size: 16px;
     }
 
-    #panel {
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      z-index: 10;
-      background: white;
+    #loginBox button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 15px;
+      border-radius: 8px;
+      border: none;
+      background: #2563eb;
+      color: white;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    #app {
+      display: none;
+      height: 100%;
+    }
+
+    #sidebar {
+      width: 320px;
+      height: 100%;
+      background: #f3f4f6;
+      position: fixed;
+      left: 0;
+      top: 0;
       padding: 15px;
-      border-radius: 10px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
-      width: 300px;
+      box-sizing: border-box;
+      border-right: 1px solid #d1d5db;
+      overflow-y: auto;
+      z-index: 10;
+    }
+
+    #mapContainer {
+      margin-left: 320px;
+      height: 100%;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .mapButton {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      background: white;
+      border: 1px solid #d1d5db;
+      text-align: left;
+      font-size: 15px;
+    }
+
+    .mapButton:hover {
+      background: #e5e7eb;
     }
 
     #searchInput {
       width: 100%;
-      padding: 10px;
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #cbd5e1;
+      margin-bottom: 15px;
       box-sizing: border-box;
-      margin-bottom: 10px;
-      border-radius: 8px;
-      border: 1px solid #ccc;
       font-size: 15px;
     }
 
-    .btn {
+    #miniMap {
       width: 100%;
-      padding: 10px;
-      margin-bottom: 8px;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
-      background: #f3f4f6;
-      font-size: 15px;
+      height: 250px;
+      border-radius: 10px;
+      margin-bottom: 15px;
     }
 
-    .btn:hover {
-      background: #e5e7eb;
+    @media (max-width: 768px) {
+
+      #sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+
+      #mapContainer {
+        margin-left: 0;
+        height: calc(100% - 500px);
+      }
+
     }
   </style>
 </head>
 
 <body>
 
-<!-- PANEL -->
-<div id="panel">
+<!-- LOGIN -->
+<div id="loginScreen">
 
-  <input
-    id="searchInput"
-    type="text"
-    placeholder="Пошук міст / сіл"
-  >
+  <div id="loginBox">
 
-  <button class="btn" onclick="togglePoints()">
-    🔥 Показати / сховати точки
-  </button>
+    <h2>🔐 Доступ до карти</h2>
+
+    <input
+      type="password"
+      id="passwordInput"
+      placeholder="Введіть пароль"
+    >
+
+    <button onclick="checkPassword()">
+      Увійти
+    </button>
+
+  </div>
 
 </div>
 
-<!-- MAP -->
-<div id="map"></div>
+<!-- APP -->
+<div id="app">
+
+  <!-- SIDEBAR -->
+  <div id="sidebar">
+
+    <h2>🗺️ Карти</h2>
+
+    <!-- SEARCH -->
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="Пошук міст / сіл"
+    >
+
+    <!-- MINI MAP -->
+    <div id="miniMap"></div>
+
+    <!-- MAPS -->
+
+    <button class="mapButton"
+      onclick="loadMap('https://www.google.com/maps/d/u/0/embed?mid=1ft_7LC679wKmp4ugU59aus0PY8dhW0M&ehbc=2E312F&noprof=1')">
+      1-ДПРЗ
+    </button>
+
+    <button class="mapButton"
+      onclick="loadMap('https://www.google.com/maps/d/u/0/embed?mid=18_oUcEtNwJGH2M6aY_O85O053OF8Z8k&ehbc=2E312F&noprof=1')">
+      2-ДПРЗ
+    </button>
+
+    <button class="mapButton"
+      onclick="loadMap('https://www.google.com/maps/d/u/0/embed?mid=1C4DmaswN9T1Rwn58RTev_HDAGaExXmA&ehbc=2E312F&noprof=1')">
+      6-ДПРЗ
+    </button>
+
+    <button class="mapButton"
+      onclick="loadMap('https://www.google.com/maps/d/u/0/embed?mid=1ANEDTSMTCzZ9xCG9rO2CSHSTSVkwnGc&ehbc=2E312F&noprof=1')">
+      9-ДПРЗ
+    </button>
+
+    <button class="mapButton"
+      onclick="loadMap('https://www.google.com/maps/d/u/0/embed?mid=1f8AOwVQtWLFJZP-nw9zeZlUyGSHtBcg&ehbc=2E312F&noprof=1')">
+      11-ДПРЗ
+    </button>
+
+    <button class="mapButton"
+      onclick="loadMap('https://www.google.com/maps/d/u/0/embed?mid=1Nx0nH2aE_-M8qz97Ap2ipD0AYEDuKtY&ehbc=2E312F&noprof=1')">
+      43-ДПРЧ
+    </button>
+
+  </div>
+
+  <!-- MAIN MAP -->
+  <div id="mapContainer">
+
+    <iframe
+      id="mapFrame"
+      src="https://www.google.com/maps/d/u/0/embed?mid=1ft_7LC679wKmp4ugU59aus0PY8dhW0M&ehbc=2E312F&noprof=1">
+    </iframe>
+
+  </div>
+
+</div>
 
 <script>
 
-let map;
-let searchBox;
-let pointsVisible = true;
+const PASSWORD = "1234";
 
-function initMap() {
+function checkPassword() {
 
-  // 🗺️ MAP
-  map = new google.maps.Map(document.getElementById("map"), {
+  const input = document.getElementById("passwordInput").value;
+
+  if (input === PASSWORD) {
+
+    document.getElementById("loginScreen").style.display = "none";
+    document.getElementById("app").style.display = "block";
+
+    initMiniMap();
+
+  } else {
+
+    alert("Невірний пароль");
+
+  }
+}
+
+// LOAD MAP
+function loadMap(url) {
+
+  document.getElementById("mapFrame").src = url;
+
+}
+
+// MINI GOOGLE MAP
+let miniMap;
+let marker;
+let autocomplete;
+
+function initMiniMap() {
+
+  miniMap = new google.maps.Map(document.getElementById("miniMap"), {
     center: { lat: 50.4501, lng: 30.5234 },
-    zoom: 11,
-    mapTypeControl: true
+    zoom: 7
   });
 
-  // 🔍 SEARCH
+  marker = new google.maps.Marker({
+    map: miniMap
+  });
+
   const input = document.getElementById("searchInput");
 
-  searchBox = new google.maps.places.SearchBox(input);
+  autocomplete = new google.maps.places.Autocomplete(input);
 
-  map.addListener("bounds_changed", () => {
-    searchBox.setBounds(map.getBounds());
-  });
+  autocomplete.addListener("place_changed", () => {
 
-  searchBox.addListener("places_changed", () => {
-
-    const places = searchBox.getPlaces();
-
-    if (places.length === 0) return;
-
-    const place = places[0];
+    const place = autocomplete.getPlace();
 
     if (!place.geometry || !place.geometry.location) return;
 
-    map.panTo(place.geometry.location);
-    map.setZoom(13);
+    miniMap.panTo(place.geometry.location);
 
-  });
+    miniMap.setZoom(13);
 
-  // 📦 LOAD GEOJSON
-  map.data.loadGeoJson(
-    "https://raw.githubusercontent.com/timmytimmych/Map_water/main/1_DPRZ.geojson"
-  );
-
-  // 🎨 STYLE
-  map.data.setStyle(feature => {
-
-    return {
-      icon: {
-        url: "http://maps.google.com/mapfiles/ms/icons/red-dot.png"
-      }
-    };
-
-  });
-
-  // ℹ️ INFO WINDOW
-  const infoWindow = new google.maps.InfoWindow();
-
-  map.data.addListener("click", (event) => {
-
-    const name = event.feature.getProperty("name");
-
-    infoWindow.setContent(`
-      <div style="padding:5px;">
-        <b>${name}</b>
-      </div>
-    `);
-
-    infoWindow.setPosition(event.latLng);
-    infoWindow.open(map);
+    marker.setPosition(place.geometry.location);
 
   });
 
 }
-
-// 🔘 SHOW / HIDE POINTS
-function togglePoints() {
-
-  pointsVisible = !pointsVisible;
-
-  map.data.setStyle(feature => {
-
-    if (!pointsVisible) {
-      return { visible: false };
-    }
-
-    return {
-      visible: true,
-      icon: {
-        url: "http://maps.google.com/mapfiles/ms/icons/red-dot.png"
-      }
-    };
-
-  });
-
-}
-
-window.onload = initMap;
-
-window.togglePoints = togglePoints;
 
 </script>
 

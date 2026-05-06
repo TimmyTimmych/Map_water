@@ -57,6 +57,21 @@
     .btn:hover {
       background: #e5e7eb;
     }
+
+    .popup img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    .popup {
+      max-width: 320px;
+      font-size: 14px;
+    }
+
+    .popup h3 {
+      margin-top: 0;
+    }
   </style>
 </head>
 
@@ -97,13 +112,15 @@ function initMap() {
   // 🔍 SEARCH
   const input = document.getElementById("searchInput");
 
-  const autocomplete = new google.maps.places.Autocomplete(input);
+  const autocomplete =
+    new google.maps.places.Autocomplete(input);
 
   autocomplete.addListener("place_changed", () => {
 
     const place = autocomplete.getPlace();
 
-    if (!place.geometry || !place.geometry.location) return;
+    if (!place.geometry || !place.geometry.location)
+      return;
 
     map.panTo(place.geometry.location);
 
@@ -120,11 +137,16 @@ function initMap() {
 
       const parser = new DOMParser();
 
-      const xml = parser.parseFromString(str, "text/xml");
+      const xml =
+        parser.parseFromString(str, "text/xml");
 
-      const placemarks = xml.getElementsByTagName("Placemark");
+      const placemarks =
+        xml.getElementsByTagName("Placemark");
 
-      console.log("Placemark count:", placemarks.length);
+      console.log(
+        "Placemark count:",
+        placemarks.length
+      );
 
       for (let placemark of placemarks) {
 
@@ -139,14 +161,23 @@ function initMap() {
 
         if (!coordNode) continue;
 
+        // 📍 NAME
         const name =
-          nameNode ? nameNode.textContent : "Точка";
+          nameNode
+            ? nameNode.textContent
+            : "Точка";
 
+        // 📝 DESCRIPTION WITH HTML
         const description =
-          descNode ? descNode.textContent : "";
+          descNode
+            ? descNode.innerHTML
+            : "";
 
+        // 🌍 COORDS
         const coords =
-          coordNode.textContent.trim().split(",");
+          coordNode.textContent
+            .trim()
+            .split(",");
 
         const lng = parseFloat(coords[0]);
 
@@ -159,18 +190,25 @@ function initMap() {
           title: name
         });
 
-        // ℹ️ INFO
-        const infoWindow = new google.maps.InfoWindow({
+        // ℹ️ POPUP
+        const infoWindow =
+          new google.maps.InfoWindow({
+
           content: `
-            <div style="max-width:250px;">
+            <div class="popup">
+
               <h3>${name}</h3>
-              <div>${description}</div>
+
+              ${description}
+
             </div>
           `
         });
 
         marker.addListener("click", () => {
+
           infoWindow.open(map, marker);
+
         });
 
         markers.push(marker);
@@ -181,7 +219,10 @@ function initMap() {
 
     .catch(error => {
 
-      console.error("KML LOAD ERROR:", error);
+      console.error(
+        "KML LOAD ERROR:",
+        error
+      );
 
     });
 
@@ -194,7 +235,9 @@ function toggleMarkers() {
 
   markers.forEach(marker => {
 
-    marker.setMap(markersVisible ? map : null);
+    marker.setMap(
+      markersVisible ? map : null
+    );
 
   });
 

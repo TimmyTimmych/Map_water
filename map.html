@@ -1,32 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Test Map</title>
+  <title>Map Water</title>
 
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAeRc4o5wN__tvYrXKNKYyrgcwQnvSnhQ"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_NEW_API_KEY"></script>
 
   <script>
-  let map;
+    let map;
 
-  function initMap() {
+    function initMap() {
 
-    map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 12,
-      center: { lat: 50.4501, lng: 30.5234 }
-    });
+      map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 12,
+        center: { lat: 50.4501, lng: 30.5234 }
+      });
 
-    // 🔥 Завантаження KML
-    const kmlLayer = new google.maps.KmlLayer({
-      url: "https://timmytimmych.github.io/Map_water/map.kml",
-      map: map
-    });
+      // Завантаження KML
+      const kmlLayer = new google.maps.KmlLayer({
+        url: "https://timmytimmych.github.io/Map_water/map.kml",
+        map: map,
+        preserveViewport: true
+      });
 
-  }
-</script>
+    }
+  </script>
 
   <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
     #map {
-      height: 100vh;
+      height: 100%;
       width: 100%;
     }
   </style>
@@ -34,27 +41,5 @@
 
 <body onload="initMap()">
   <div id="map"></div>
-
-<div style="
-  position:absolute;
-  top:10px;
-  left:10px;
-  background:white;
-  padding:10px;
-  z-index:5;
-  border-radius:8px;
-  font-family:Arial;
-">
-  <label>
-    <input type="checkbox" checked onchange="toggleHydrants(this.checked)">
-    🔥 Hydrants
-  </label>
-  <br>
-  <label>
-    <input type="checkbox" checked onchange="toggleWater(this.checked)">
-    💧 Water
-  </label>
-</div>
-  
 </body>
 </html>

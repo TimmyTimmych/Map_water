@@ -3,42 +3,26 @@
 <head>
   <title>Map Water</title>
 
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAeRc4o5wN__tvYrXKNKYyrgcwQnvSnhQ"></script>
-
- <script>
-  let map;
-
-  function initMap() {
-
-    map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 12,
-      center: { lat: 50.4501, lng: 30.5234 }
-    });
-
-    const kmlLayer = new google.maps.KmlLayer({
-      url: "https://raw.githubusercontent.com/timmytimmych/Map_water/main/map.kml",
-      map: map,
-      preserveViewport: true
-    });
-
-  }
-</script>
-
   <style>
     html, body {
-      height: 100%;
       margin: 0;
       padding: 0;
+      height: 100%;
     }
 
-    #map {
-      height: 100%;
+    iframe {
       width: 100%;
+      height: 100%;
+      border: 0;
     }
   </style>
 </head>
 
-<body onload="initMap()">
-  <div id="map"></div>
+<body>
+
+  <iframe 
+    src="https://www.google.com/maps/d/u/0/embed?mid=1wLnPbaP-q15I_Gta--E7G4p01xvZVMI&ehbc=2E312F">
+  </iframe>
+
 </body>
 </html>

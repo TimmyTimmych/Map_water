@@ -5,25 +5,24 @@
 
   <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_NEW_API_KEY"></script>
 
-  <script>
-    let map;
+ <script>
+  let map;
 
-    function initMap() {
+  function initMap() {
 
-      map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 12,
-        center: { lat: 50.4501, lng: 30.5234 }
-      });
+    map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 12,
+      center: { lat: 50.4501, lng: 30.5234 }
+    });
 
-      // Завантаження KML
-      const kmlLayer = new google.maps.KmlLayer({
-url: "https://raw.githubusercontent.com/timmytimmych/Map_water/main/map.kml",
-        map: map,
-        preserveViewport: true
-      });
+    const kmlLayer = new google.maps.KmlLayer({
+      url: "https://raw.githubusercontent.com/timmytimmych/Map_water/main/map.kml",
+      map: map,
+      preserveViewport: true
+    });
 
-    }
-  </script>
+  }
+</script>
 
   <style>
     html, body {

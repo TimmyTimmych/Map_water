@@ -5,8 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>GIS Map</title>
 
-  <script src="data.js"></script>
-
+  <!-- Google Maps API -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAeRc4o5wN__tvYrXKNKYyrgcwQnvSnhQ&libraries=places"></script>
 
   <style>
@@ -41,6 +40,7 @@
       margin-bottom: 10px;
       border-radius: 8px;
       border: 1px solid #ccc;
+      font-size: 15px;
     }
 
     .btn {
@@ -51,6 +51,7 @@
       border-radius: 8px;
       cursor: pointer;
       background: #f3f4f6;
+      font-size: 15px;
     }
 
     .btn:hover {
@@ -61,6 +62,7 @@
 
 <body>
 
+<!-- PANEL -->
 <div id="panel">
 
   <input
@@ -69,19 +71,117 @@
     placeholder="Пошук міст / сіл"
   >
 
-  <button class="btn" onclick="toggleHydrants()">
-    🔥 Гідранти
-  </button>
-
-  <button class="btn" onclick="toggleWater()">
-    💧 Вода
+  <button class="btn" onclick="togglePoints()">
+    🔥 Показати / сховати точки
   </button>
 
 </div>
 
+<!-- MAP -->
 <div id="map"></div>
 
 <script>
 
 let map;
+let searchBox;
+let pointsVisible = true;
+
+function initMap() {
+
+  // 🗺️ MAP
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: { lat: 50.4501, lng: 30.5234 },
+    zoom: 11,
+    mapTypeControl: true
+  });
+
+  // 🔍 SEARCH
+  const input = document.getElementById("searchInput");
+
+  searchBox = new google.maps.places.SearchBox(input);
+
+  map.addListener("bounds_changed", () => {
+    searchBox.setBounds(map.getBounds());
+  });
+
+  searchBox.addListener("places_changed", () => {
+
+    const places = searchBox.getPlaces();
+
+    if (places.length === 0) return;
+
+    const place = places[0];
+
+    if (!place.geometry || !place.geometry.location) return;
+
+    map.panTo(place.geometry.location);
+    map.setZoom(13);
+
+  });
+
+  // 📦 LOAD GEOJSON
+  map.data.loadGeoJson(
+    "https://raw.githubusercontent.com/timmytimmych/Map_water/main/1_DPRZ.geojson"
+  );
+
+  // 🎨 STYLE
+  map.data.setStyle(feature => {
+
+    return {
+      icon: {
+        url: "http://maps.google.com/mapfiles/ms/icons/red-dot.png"
+      }
+    };
+
+  });
+
+  // ℹ️ INFO WINDOW
+  const infoWindow = new google.maps.InfoWindow();
+
+  map.data.addListener("click", (event) => {
+
+    const name = event.feature.getProperty("name");
+
+    infoWindow.setContent(`
+      <div style="padding:5px;">
+        <b>${name}</b>
+      </div>
+    `);
+
+    infoWindow.setPosition(event.latLng);
+    infoWindow.open(map);
+
+  });
+
+}
+
+// 🔘 SHOW / HIDE POINTS
+function togglePoints() {
+
+  pointsVisible = !pointsVisible;
+
+  map.data.setStyle(feature => {
+
+    if (!pointsVisible) {
+      return { visible: false };
+    }
+
+    return {
+      visible: true,
+      icon: {
+        url: "http://maps.google.com/mapfiles/ms/icons/red-dot.png"
+      }
+    };
+
+  });
+
+}
+
+window.onload = initMap;
+
+window.togglePoints = togglePoints;
+
+</script>
+
+</body>
 </html>

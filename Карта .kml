@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Карта протипожежного водопостачання 43-ДПРЧ "ПрАТ "ККПК" ]]></name>
+    <description/>
+    <Style id="icon-1575-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1575-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1575-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1575-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1575-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Шар без назви</name>
+      <Placemark>
+        <name>ПГ-1 </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gyk0IqHWadxvgmvWrpATUtobwCCu_ji_5MRYSCX2FZ4Ube6uSk6wc0JEO4v-79L35IO83CkRNHGkkZRCTSjAXvFlbpjVMkM0w-LADAzr_mCYrJq-vyrnZtKxL4VaUTZwcN6gQmwcDs6rxW4L9l4MCRo883c6pwIEZWKVdZRxzqyflxDc5x2F1nHAi7xpKGUdMv97O5SGOr5iWfyUJVzskk5VUwPBBsyuaQ3MbD2QB1B0SGzfOJm9nFR6YA?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gyk0IqHWadxvgmvWrpATUtobwCCu_ji_5MRYSCX2FZ4Ube6uSk6wc0JEO4v-79L35IO83CkRNHGkkZRCTSjAXvFlbpjVMkM0w-LADAzr_mCYrJq-vyrnZtKxL4VaUTZwcN6gQmwcDs6rxW4L9l4MCRo883c6pwIEZWKVdZRxzqyflxDc5x2F1nHAi7xpKGUdMv97O5SGOr5iWfyUJVzskk5VUwPBBsyuaQ3MbD2QB1B0SGzfOJm9nFR6YA?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6667203,50.1360655,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-2</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzTCQJTH378MUFpA3DMBDxov-jkIDBgv-3aRW97zANxyDtoP8TZ6TBmeiuHDjgmAJcSbyxqh43Z9kHTMns3UXDtQRumDEy5yh1GZ1w0FU1wCCyAMO88QHRyNu3ZpFi8H5x1o5IxCKGmXZ-Y_UIzDGtwNnyZPiLNArI9gR3pdUDx0fKjdhHfBlgsSOBRTzANJvyeWFlv3K3b1Er8m_XAqemPVz1EMRooC6B80NG3oqYuUHj2cmVZUutzvQw?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzTCQJTH378MUFpA3DMBDxov-jkIDBgv-3aRW97zANxyDtoP8TZ6TBmeiuHDjgmAJcSbyxqh43Z9kHTMns3UXDtQRumDEy5yh1GZ1w0FU1wCCyAMO88QHRyNu3ZpFi8H5x1o5IxCKGmXZ-Y_UIzDGtwNnyZPiLNArI9gR3pdUDx0fKjdhHfBlgsSOBRTzANJvyeWFlv3K3b1Er8m_XAqemPVz1EMRooC6B80NG3oqYuUHj2cmVZUutzvQw?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6681781,50.1361029,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-3</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwmyAbY9GnnhmvyaVDsWVzfJ8HoY9Rz-mV8l1rbdtPiXyH4VRk5CAJCsrrwBnUKIppSWk-fpZVPLF3Lsj3fFNxnJdKHWJsbKTj4NsrPDuO60Uuzrs9CkShlofItWJfQk0hQuN1axciYNl9sZqVlbWRnT7oStKowtyhdDa-whFBb9GWyshG2fOY9bNPuY2viFkE_3E1ENUjkMYWPh_8l2GuwptBLZ2GCjVciE5W5TZpNiWMHiUNWy9tOFNs?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwmyAbY9GnnhmvyaVDsWVzfJ8HoY9Rz-mV8l1rbdtPiXyH4VRk5CAJCsrrwBnUKIppSWk-fpZVPLF3Lsj3fFNxnJdKHWJsbKTj4NsrPDuO60Uuzrs9CkShlofItWJfQk0hQuN1axciYNl9sZqVlbWRnT7oStKowtyhdDa-whFBb9GWyshG2fOY9bNPuY2viFkE_3E1ENUjkMYWPh_8l2GuwptBLZ2GCjVciE5W5TZpNiWMHiUNWy9tOFNs?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6688694,50.1361192,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-4</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gy_mQIIefAvzC0CXEHVFDkqam-HaivYBZnBVoQ2HGZkl3IFcqkIlcAbj1QUWxjwPBp8efch_Rly8ICUVvriIfdHQ2cIuU6kOFOlVp4nN1CiX5DIO-kSTqjWekLpPeYc5TJSCDIDZ22Jkp4b-A2neHn4B_kNKUp5Q-HeZtcyYMhnhRPu9EVyqBwfUgqWDwMnm8a48zxtVf3m6c7TB_6GbzL2Zm_bQomdH5-I3KJGaCVf6QTv1b54u57SQII?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gy_mQIIefAvzC0CXEHVFDkqam-HaivYBZnBVoQ2HGZkl3IFcqkIlcAbj1QUWxjwPBp8efch_Rly8ICUVvriIfdHQ2cIuU6kOFOlVp4nN1CiX5DIO-kSTqjWekLpPeYc5TJSCDIDZ22Jkp4b-A2neHn4B_kNKUp5Q-HeZtcyYMhnhRPu9EVyqBwfUgqWDwMnm8a48zxtVf3m6c7TB_6GbzL2Zm_bQomdH5-I3KJGaCVf6QTv1b54u57SQII?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6704368,50.1360517,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-5</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxVgEGwN1UI35hvxhpzpaTPIDIVTHjHfTfNwJtcwBoOenNfhJqqF-pEv1foNnRRJPa3ThfzFBUzeT6lDZJgUQqmrcbnO3kxEpn6k6E-7pXndkx4w05yDQ_UyHXRo5hyb5fCXj8Pdw2QUKW5SuTCyhvmxf3jV5PUjE0_HTKOXZr3SQezCajJ1h1V2Xba8o0dae27DPgvBsPjrlmehbceQaJ8kef5Kkj6F5p084hcZXslTuot0elQa4EkCz8?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxVgEGwN1UI35hvxhpzpaTPIDIVTHjHfTfNwJtcwBoOenNfhJqqF-pEv1foNnRRJPa3ThfzFBUzeT6lDZJgUQqmrcbnO3kxEpn6k6E-7pXndkx4w05yDQ_UyHXRo5hyb5fCXj8Pdw2QUKW5SuTCyhvmxf3jV5PUjE0_HTKOXZr3SQezCajJ1h1V2Xba8o0dae27DPgvBsPjrlmehbceQaJ8kef5Kkj6F5p084hcZXslTuot0elQa4EkCz8?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6708988,50.1360588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-6</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxhECXkG41ayq1o1LHOC3OayO4kHM-5FoECTgFkj8DmvhxpYd8i8qBMM8h0yrFsIDLeCKO1HB8rWjKdU_IIk8pxmOPKI9Gq0wQ9sU2f1jmQ9hxwBE2ca48GjyMM4qXSE76j2RKFQXz30QcuEp2OmE1zavpXvF2xAPHtVcq83FVQ_IyflFzfpONIuv7NRiazigaU-If51vWJ_f58AYHvIjbGMCh8Tj1lRLIc_NgTkgDQkldcx3mMQooSzb8?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxhECXkG41ayq1o1LHOC3OayO4kHM-5FoECTgFkj8DmvhxpYd8i8qBMM8h0yrFsIDLeCKO1HB8rWjKdU_IIk8pxmOPKI9Gq0wQ9sU2f1jmQ9hxwBE2ca48GjyMM4qXSE76j2RKFQXz30QcuEp2OmE1zavpXvF2xAPHtVcq83FVQ_IyflFzfpONIuv7NRiazigaU-If51vWJ_f58AYHvIjbGMCh8Tj1lRLIc_NgTkgDQkldcx3mMQooSzb8?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6726205,50.1360412,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-7</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GygMMZXaCBVn65GgA11XirU_DfO5LTtA_llcWKmjkLeQQrIMBfFCUclSAc2EQFrkpKnmSTlBdxirzlXMl-8eOit9Opv5fayxPAo8Exwzv1YyRO3p_ImAqfZR5GooCaRg9nawaHtchQbQOtFK6cFUBPEEUtU0s8_V28tDAJsavmzpyV4hMaUwir0-uyMPdd_hAa318GVp-Q0LryLAJUVaLsR5mIGqTinxMR7t_Pir6w_UOEdyaPkVg9_Y0Y?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GygMMZXaCBVn65GgA11XirU_DfO5LTtA_llcWKmjkLeQQrIMBfFCUclSAc2EQFrkpKnmSTlBdxirzlXMl-8eOit9Opv5fayxPAo8Exwzv1YyRO3p_ImAqfZR5GooCaRg9nawaHtchQbQOtFK6cFUBPEEUtU0s8_V28tDAJsavmzpyV4hMaUwir0-uyMPdd_hAa318GVp-Q0LryLAJUVaLsR5mIGqTinxMR7t_Pir6w_UOEdyaPkVg9_Y0Y?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6743434,50.1359621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-8</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzZtmZraBXBJGRpAi68NIBY-XbT2r_G1MNIFVl-AUeTBNt82Yqm0R4U6_zga4dFar3ve5AwMeBWuusL-cWrmCKme4MTwD15FGKHr_2gM-fVAEXzRM2tWm66hNOzM9xggMhKZKHo6xH9UCxJ-fD4ZNHwh75zme0lsmhyN8-5Pi4GgwxkGgDJoDciX2OlbuwZ8fFu53fSObDZS95zeQOShARlWrBFJOW0IG2UThdvvrVvZKYTWoIftZYz6bs?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzZtmZraBXBJGRpAi68NIBY-XbT2r_G1MNIFVl-AUeTBNt82Yqm0R4U6_zga4dFar3ve5AwMeBWuusL-cWrmCKme4MTwD15FGKHr_2gM-fVAEXzRM2tWm66hNOzM9xggMhKZKHo6xH9UCxJ-fD4ZNHwh75zme0lsmhyN8-5Pi4GgwxkGgDJoDciX2OlbuwZ8fFu53fSObDZS95zeQOShARlWrBFJOW0IG2UThdvvrVvZKYTWoIftZYz6bs?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6758056,50.1359387,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-9</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gzah7XuyavP4Duiqr6S6owd8UP24acEPsQ2PU5odXlhwsAWLbrsYP9ZukeVrGD-gltIoruAjbO0QU2-hZ9dJLGPynInrvv428pwPZBKMOAvMZUcc2SBlSMBufzyVHhMQ4rcwUNBrIoAKvJ6y7U6k3lm29HYCnNDEcr5TzrlxXEbipK5zJ8x7ApRB51fLytlZcskSVt-LINy8c0-6gSuOJQjxKq6bwPRKutIucR8NxOLE5yq5BTsc7-XWUM?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gzah7XuyavP4Duiqr6S6owd8UP24acEPsQ2PU5odXlhwsAWLbrsYP9ZukeVrGD-gltIoruAjbO0QU2-hZ9dJLGPynInrvv428pwPZBKMOAvMZUcc2SBlSMBufzyVHhMQ4rcwUNBrIoAKvJ6y7U6k3lm29HYCnNDEcr5TzrlxXEbipK5zJ8x7ApRB51fLytlZcskSVt-LINy8c0-6gSuOJQjxKq6bwPRKutIucR8NxOLE5yq5BTsc7-XWUM?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.666509,50.1355684,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-10</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxVs2wmLN7cq1tme0gBmiZaXGx4ZoqI6fWHLfoRCyIctIfRRZEE1Q6auWFX1oEu4FPVKIFsqSfmlH2VYQo6oxW0ILc6dosi4a3QT8i75M6ncsR5e1HNwLfcR6cYlEg4pXZhPekMabEJiXZX7fwtN8NQC5JHz3sLMCOhHl4o1IX7g0gIlaZeHA39e14XjlkbT1wWQq7NLHSQTJLgJ-UPckG2aPe6XArA4UXfve7RvmWta_dZ5Pt8wKThHrU?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxVs2wmLN7cq1tme0gBmiZaXGx4ZoqI6fWHLfoRCyIctIfRRZEE1Q6auWFX1oEu4FPVKIFsqSfmlH2VYQo6oxW0ILc6dosi4a3QT8i75M6ncsR5e1HNwLfcR6cYlEg4pXZhPekMabEJiXZX7fwtN8NQC5JHz3sLMCOhHl4o1IX7g0gIlaZeHA39e14XjlkbT1wWQq7NLHSQTJLgJ-UPckG2aPe6XArA4UXfve7RvmWta_dZ5Pt8wKThHrU?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6678807,50.1352063,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-11</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxFkIO7SfKP-FNNokqXYMy7EihwurksQFdMWEn_MEQ0_QDizalQr1IPkXuGUgF96a7bNUqdnxvx_mUmv3JMIW2hX6G7I_SDR7w6-XAZPKDnC90zZTJ010n2YdqX0Q0LVVXyfHcI7OHt6qRzZUgzCEqdVr2l9w09sAAaClp2J1dbYLOlh2ztNHyzufxdCDR5ZvH5r9-VDh41pSs7l3CPKyCiTULS2jsQVm38jsxzJl7RZHNkWbEcoTKMkzc?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxFkIO7SfKP-FNNokqXYMy7EihwurksQFdMWEn_MEQ0_QDizalQr1IPkXuGUgF96a7bNUqdnxvx_mUmv3JMIW2hX6G7I_SDR7w6-XAZPKDnC90zZTJ010n2YdqX0Q0LVVXyfHcI7OHt6qRzZUgzCEqdVr2l9w09sAAaClp2J1dbYLOlh2ztNHyzufxdCDR5ZvH5r9-VDh41pSs7l3CPKyCiTULS2jsQVm38jsxzJl7RZHNkWbEcoTKMkzc?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.66689921,50.1351403,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-12</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gz7YpI_LzkVmFBMQbnG0PNDfAGV_U53mKAxbYn5KQnj5PSrlDe8kfEs1JOYkXKvFQpZK2BHp-A_Vd9as_fwu8EPB1CIIGS9KZZxp1_DuMEsiJ1corzHHYGtOdadVi7Ou-zwUP28laSKE3CD_AU6Rp-bhpe769tA9jYtVurZnxjDOIlDLVRQN7_UQvpNN8H3ey10z9b4l9g0--k9HvQKgrp88AFSw35kUULswBa7i6Y9XRiYwiwy00PJlxc?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gz7YpI_LzkVmFBMQbnG0PNDfAGV_U53mKAxbYn5KQnj5PSrlDe8kfEs1JOYkXKvFQpZK2BHp-A_Vd9as_fwu8EPB1CIIGS9KZZxp1_DuMEsiJ1corzHHYGtOdadVi7Ou-zwUP28laSKE3CD_AU6Rp-bhpe769tA9jYtVurZnxjDOIlDLVRQN7_UQvpNN8H3ey10z9b4l9g0--k9HvQKgrp88AFSw35kUULswBa7i6Y9XRiYwiwy00PJlxc?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6704006,50.1349736,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-13</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzWfO61EtwNSTh4RQgYUGS1hEIPxJFLzYnGLcyHtyHBoeJ5kqaclUOQES8Vm3Q0_q6DvW14uq5RBfttQTpO2Hi9lqh7m5ncpsoffjIX2awa1yM5tw1utsMn-1miVJkYfX8HE03eFrGcNVVNIQ8jnrWFZJwXhMbGYSOAOGKwNYl7Kq3VbX7H9YgThbv8uTBOnaaMwewCmOU5PHHlNTPQ4qM6NFOPr1END33putwhXa72J2nCkeHWl4D-97w?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzWfO61EtwNSTh4RQgYUGS1hEIPxJFLzYnGLcyHtyHBoeJ5kqaclUOQES8Vm3Q0_q6DvW14uq5RBfttQTpO2Hi9lqh7m5ncpsoffjIX2awa1yM5tw1utsMn-1miVJkYfX8HE03eFrGcNVVNIQ8jnrWFZJwXhMbGYSOAOGKwNYl7Kq3VbX7H9YgThbv8uTBOnaaMwewCmOU5PHHlNTPQ4qM6NFOPr1END33putwhXa72J2nCkeHWl4D-97w?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6679729,50.1324733,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-13А</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GyMkYj49mf2k6i_VKhPXjBc0YWr1n4gr08TPNprj6Gv1p9d4GlkzlE_YoZbA12v-T1X0GBTrw5azjCcbW1LSvjMqwxzMYlK6J_Kpr3jw0lCnd_Q2FIzalzOw8oVdGYKiDOL_bvTyRQd-DbQ_wKwhw9j4oOayJEPKFnM6X4yl6XxmlK3-5Eu2JJeU0tR2buIPqIg5uVydBkGxbzk96Hac_8CtkZEt8o-0cgkcKOqsHd11LuNSdvJeCUCcHE?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GyMkYj49mf2k6i_VKhPXjBc0YWr1n4gr08TPNprj6Gv1p9d4GlkzlE_YoZbA12v-T1X0GBTrw5azjCcbW1LSvjMqwxzMYlK6J_Kpr3jw0lCnd_Q2FIzalzOw8oVdGYKiDOL_bvTyRQd-DbQ_wKwhw9j4oOayJEPKFnM6X4yl6XxmlK3-5Eu2JJeU0tR2buIPqIg5uVydBkGxbzk96Hac_8CtkZEt8o-0cgkcKOqsHd11LuNSdvJeCUCcHE?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6687936,50.1321993,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-14</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzXhsziOsfNyUD3yZWnbJptXLhBdr3nZIEXg6XmfH5S_MBNhA7EWN-ZOINc8fQkUR8RXmVC8ld72my5DwETUuK966fh7CJBLUrTs4qJpTL3-DItJrVN5tqPx67vAr_SBlqyptI8JB_Hxl_lWVsLk4FHuqD0JRxycHnVwUF8KQIknaeAYUAD0E_GgPwH43OlZ4R6q_BxL3iazDNBHMDjXUFnRZs7Pz3n-H43udVSD807ygbKYLklY2qpR84?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzXhsziOsfNyUD3yZWnbJptXLhBdr3nZIEXg6XmfH5S_MBNhA7EWN-ZOINc8fQkUR8RXmVC8ld72my5DwETUuK966fh7CJBLUrTs4qJpTL3-DItJrVN5tqPx67vAr_SBlqyptI8JB_Hxl_lWVsLk4FHuqD0JRxycHnVwUF8KQIknaeAYUAD0E_GgPwH43OlZ4R6q_BxL3iazDNBHMDjXUFnRZs7Pz3n-H43udVSD807ygbKYLklY2qpR84?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6725269,50.134026,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-15</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxoQvbnagUUQXLPIBd0qKz3ziIuY8X6RxhYASuBtqlOrbMOJ0e77W3pyK4OFoN5Uw8VWvryG30Z1jCCYAKCrFQLHApVJrnmw97eW7pZoKJzxObmn0m57KmCleDRiZng4rWw1lAAM_2r-5ohLPjdTHt5qyX1KVbEyRqp4I-gVQghlg9bE3vEdM5d6WiautDcw6szx06vuJ724PfH213TGjA9jBxWHNxi_SLejjrOWGor9KYNYK7G2-nXDHo?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxoQvbnagUUQXLPIBd0qKz3ziIuY8X6RxhYASuBtqlOrbMOJ0e77W3pyK4OFoN5Uw8VWvryG30Z1jCCYAKCrFQLHApVJrnmw97eW7pZoKJzxObmn0m57KmCleDRiZng4rWw1lAAM_2r-5ohLPjdTHt5qyX1KVbEyRqp4I-gVQghlg9bE3vEdM5d6WiautDcw6szx06vuJ724PfH213TGjA9jBxWHNxi_SLejjrOWGor9KYNYK7G2-nXDHo?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.672484,50.1330243,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-16</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gz-Z6f3JD4J6iAka-VL_XycWv5I7mVjZ-phVaZjqp4zihEXN5JdhIm9LKgntVBa8UTlgDs2y9JQcCWxVTt4P5XB6kQ_3ETDRxTBKG3eW9ONOBdQ7XLtwo7pHIHujBarn2fJG0UvYPiPH2-ZWu7eev8JUK0FE3PW6YqwzZMnUWg8VdnlCUyDkOUdZ8_fNgM8KMmv91dmepRlRGqC-1ob8YxKufv0CzK7IimqhfnTCQLvNnu713wxZW-E1-s?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gz-Z6f3JD4J6iAka-VL_XycWv5I7mVjZ-phVaZjqp4zihEXN5JdhIm9LKgntVBa8UTlgDs2y9JQcCWxVTt4P5XB6kQ_3ETDRxTBKG3eW9ONOBdQ7XLtwo7pHIHujBarn2fJG0UvYPiPH2-ZWu7eev8JUK0FE3PW6YqwzZMnUWg8VdnlCUyDkOUdZ8_fNgM8KMmv91dmepRlRGqC-1ob8YxKufv0CzK7IimqhfnTCQLvNnu713wxZW-E1-s?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6731851,50.1326734,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-17</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gw6Mr6p99st_izwZWaU5E7VgSkQEoZnh-tzCcduEzDnlFarSpahOyB7ai09GbGAOAjBFo1RfWSi1BClG2GHJ1M53kWfaWG_C68DmvdGHeafhnwJU4oCW4ao1rskGi--MuHnOmt4eDnThoylgDP9eahCkdyYWdinZaSGpUdH3jTLhXQRavqXKSVkMrbMee_DHClcQLKGWw8VcvLINK_Pvm_-kRNWT3BvuiKLGpuidgxRZax8IxYowKA-YfQ?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gw6Mr6p99st_izwZWaU5E7VgSkQEoZnh-tzCcduEzDnlFarSpahOyB7ai09GbGAOAjBFo1RfWSi1BClG2GHJ1M53kWfaWG_C68DmvdGHeafhnwJU4oCW4ao1rskGi--MuHnOmt4eDnThoylgDP9eahCkdyYWdinZaSGpUdH3jTLhXQRavqXKSVkMrbMee_DHClcQLKGWw8VcvLINK_Pvm_-kRNWT3BvuiKLGpuidgxRZax8IxYowKA-YfQ?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.674437,50.1325924,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-18</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gz0wzmpSXfKyEgHlNfMfmInZ-6zWDZfbs62hUa9uy8AY4FNV_z1QohIs9Jr7BX67gzlr55lGWAn0nCs7aCOJ5poZPTFSDjOaUNwWKKegDEnxZazw-FyNgbiO2ER38Tr8HT6MqYsGuqnnzv4VWJeq_cKUWFbQ-Nl3yH_Y87B_7GTIBXsV1jnV0f26fSFfyF-ZCVRa6UBzDk8gDge5jcIdrLYQdRHAgnaI3wh3rDXjOwMitgiPMXvStmJpxE?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gz0wzmpSXfKyEgHlNfMfmInZ-6zWDZfbs62hUa9uy8AY4FNV_z1QohIs9Jr7BX67gzlr55lGWAn0nCs7aCOJ5poZPTFSDjOaUNwWKKegDEnxZazw-FyNgbiO2ER38Tr8HT6MqYsGuqnnzv4VWJeq_cKUWFbQ-Nl3yH_Y87B_7GTIBXsV1jnV0f26fSFfyF-ZCVRa6UBzDk8gDge5jcIdrLYQdRHAgnaI3wh3rDXjOwMitgiPMXvStmJpxE?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6757892,50.1325975,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-19</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxIlPSUKTBkb6q7j2IYUwTPeQ2cKB9RkjLHXqem4iCF9nf2ShWzoGFE7fkFIuDb0EokRCIQO4q9UGVZRP1GGVqUjWtO2ekldWiH2jOKz1YardOLaV9L8hV59f0I3rTqqmRGHAmNstDDfYQlliaomA_qOXilCXST74zgP3YID9uYvphFsGAbWoiL5jkk4WXCflW9OGY_na_iMSRGyv-Az1JJryITT70Xg8AkOv2oGmZm-raAaK1v6iVizog?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxIlPSUKTBkb6q7j2IYUwTPeQ2cKB9RkjLHXqem4iCF9nf2ShWzoGFE7fkFIuDb0EokRCIQO4q9UGVZRP1GGVqUjWtO2ekldWiH2jOKz1YardOLaV9L8hV59f0I3rTqqmRGHAmNstDDfYQlliaomA_qOXilCXST74zgP3YID9uYvphFsGAbWoiL5jkk4WXCflW9OGY_na_iMSRGyv-Az1JJryITT70Xg8AkOv2oGmZm-raAaK1v6iVizog?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6765817,50.133121,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-20</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzKYhCGHbwQbZ-kTzeU44QBDDF-haLt67Uz_jyumOJP379hRCgFuU6QGqre8Xw9_1gFSJR4J5UifFE21GoqkTWdJ7ahqcqex8-7vXoIH7QVYBErOyxZvsaJEfOpTCANe32kPcCze0-MvPrV1LbIP9YFhGlOYj052ZT01xugAOr4HkRl47UvgT5iWBIv4qvEh9G8qmnkHIs80RgyfCGu5CPuw_SjWldFCSrTE6qnoZDLi06RPeDDTnLNtsc?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzKYhCGHbwQbZ-kTzeU44QBDDF-haLt67Uz_jyumOJP379hRCgFuU6QGqre8Xw9_1gFSJR4J5UifFE21GoqkTWdJ7ahqcqex8-7vXoIH7QVYBErOyxZvsaJEfOpTCANe32kPcCze0-MvPrV1LbIP9YFhGlOYj052ZT01xugAOr4HkRl47UvgT5iWBIv4qvEh9G8qmnkHIs80RgyfCGu5CPuw_SjWldFCSrTE6qnoZDLi06RPeDDTnLNtsc?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6656906,50.1352996,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-21</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzfNLR3RLrkWLOfpsd-JFW6qqV4bt-TxuycilV6RvlGF4g4GphKxS-dcf6F65aZq_x0ZyXz_drEsy-_gywm6hp77-B3c1waEWXk9ZbUPZ5V-GajjH2drzYhSn5r_oNylmTT8u8l6iV7WC2sGJVb2Rsc69uipr0e4yth-aMk8Q3OOf65O8KQCwO2Yu9IuzgsR3Pmwv-cOtk2VkYRntWDQVwrmE_tgYCgfH99Uc2jwCFgbWgWleYzJOPZSc8?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzfNLR3RLrkWLOfpsd-JFW6qqV4bt-TxuycilV6RvlGF4g4GphKxS-dcf6F65aZq_x0ZyXz_drEsy-_gywm6hp77-B3c1waEWXk9ZbUPZ5V-GajjH2drzYhSn5r_oNylmTT8u8l6iV7WC2sGJVb2Rsc69uipr0e4yth-aMk8Q3OOf65O8KQCwO2Yu9IuzgsR3Pmwv-cOtk2VkYRntWDQVwrmE_tgYCgfH99Uc2jwCFgbWgWleYzJOPZSc8?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6766149,50.1352355,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-22</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxqhR_y8YDmZukTBSaRuY0Ff8IA9Vzz5HiNxQCESW8v1JCtflmnz-PEh0H_Zjkh51Irl6nyr6ETuZcyiqwjTCwhjOO6p513PRjuZVvDc6FJZqheGb2wfwgy99dcnf-6U6LODxP38DgcKZ8s7v83Y47qcXfqzzRX4MjPO3vy1BtdcQA9QsIKOukZYMm3dr8Sp3Z5NfQYi7RnZJw-kW610_g-mBpVnZHRqOYL0n8lehL2tr86E7sP5jYPCKI?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxqhR_y8YDmZukTBSaRuY0Ff8IA9Vzz5HiNxQCESW8v1JCtflmnz-PEh0H_Zjkh51Irl6nyr6ETuZcyiqwjTCwhjOO6p513PRjuZVvDc6FJZqheGb2wfwgy99dcnf-6U6LODxP38DgcKZ8s7v83Y47qcXfqzzRX4MjPO3vy1BtdcQA9QsIKOukZYMm3dr8Sp3Z5NfQYi7RnZJw-kW610_g-mBpVnZHRqOYL0n8lehL2tr86E7sP5jYPCKI?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6704428,50.1317598,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-23</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwINpbyvCg36Mu9OR4kP4tdQ1p1C_GTm9e0FlNbXgYWoqHh183ILBL3rTFWlCtGpDDTemSpXZFrssLsT1Pb-x9ggcgFVmLtTFmDfoMuEhDidM9btF_NggsFYdhaqjZAFzTjFNJMVkOyLwtVbzEV_sqSVazYI9OVOxP5xcLW7b--MC-rKS38_muo0g-geiMzcu5Ci_u3HMBJtqLO4YRf56xdNG5UVZaip9Ny4vYDDfLuMv0-PUS8BN-siZg?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwINpbyvCg36Mu9OR4kP4tdQ1p1C_GTm9e0FlNbXgYWoqHh183ILBL3rTFWlCtGpDDTemSpXZFrssLsT1Pb-x9ggcgFVmLtTFmDfoMuEhDidM9btF_NggsFYdhaqjZAFzTjFNJMVkOyLwtVbzEV_sqSVazYI9OVOxP5xcLW7b--MC-rKS38_muo0g-geiMzcu5Ci_u3HMBJtqLO4YRf56xdNG5UVZaip9Ny4vYDDfLuMv0-PUS8BN-siZg?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6699289,50.1328049,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-24</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gzg6SZPundcDFZD77Eij1jxgPxorhsVeBvHHdZkebcWt2vwtMUGXzHqxslaXpDzQm-G1vWmGj_6OuT-znFZ1H7HkUapmLF_TZEV1dFPuwX7i-IW55xbULIPpXmJcnwGpkO-nUcM_1Tn3gobwrx0ZFwWvujpKCGShqs8moapV6DjpKgDEfZZAAd7u4fo3Cg_XOIV22kL3Z1YlILSNraSJYCek_IevxghkDt6dEQZf4wJXEx-cGi947Dg_-E?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gzg6SZPundcDFZD77Eij1jxgPxorhsVeBvHHdZkebcWt2vwtMUGXzHqxslaXpDzQm-G1vWmGj_6OuT-znFZ1H7HkUapmLF_TZEV1dFPuwX7i-IW55xbULIPpXmJcnwGpkO-nUcM_1Tn3gobwrx0ZFwWvujpKCGShqs8moapV6DjpKgDEfZZAAd7u4fo3Cg_XOIV22kL3Z1YlILSNraSJYCek_IevxghkDt6dEQZf4wJXEx-cGi947Dg_-E?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6672698,50.1328776,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-25</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gw2vO1krglocvtnz5QevH3mQ48b_OkZxHqG1ClloGSQOSDurrIoUTPJWRTcba4Li4eN-sIXQ_0-m2c8tkTc-Bc7-Snl4wTJip2rGjFpddQ4KRDC24_LKHoKNDHPJHxyQmkPcRmsxLkMOm3BxLNWg8JW6Ho7kxySMB5K0nraNoQd4bCFGVawHmPaFiY_Ysfxh7NdWvaP0Ae3zJan3_xiBUH3_qTSF4cJkXVgZigZ4ASnsw8SEvsiIL8ASRU?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gw2vO1krglocvtnz5QevH3mQ48b_OkZxHqG1ClloGSQOSDurrIoUTPJWRTcba4Li4eN-sIXQ_0-m2c8tkTc-Bc7-Snl4wTJip2rGjFpddQ4KRDC24_LKHoKNDHPJHxyQmkPcRmsxLkMOm3BxLNWg8JW6Ho7kxySMB5K0nraNoQd4bCFGVawHmPaFiY_Ysfxh7NdWvaP0Ae3zJan3_xiBUH3_qTSF4cJkXVgZigZ4ASnsw8SEvsiIL8ASRU?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6663783,50.133778,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-26</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gxuu8vPmXUaQVPJGYqNvIThRxKQOdrk6m_LxxlqsgjkpOa2GvV4gFZZ3kH-GEI1xkYPbalZdR9zJZq4IP_NuIQ1E2oZWoHy3Vmf1gcuTZB1B1-kidri4iGT5gWhViEMS3r2Fec6v01AOdhSmgshCFAZyCQTvHmEExSvZ77NjKJYt4ltTMsEq4MArgBGnt5CcSC-g-TxzY7zuUzcdhfaS9jOpcoBrF33h-GT5y3qE7j3Kdb7ONX29WgLplI?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gxuu8vPmXUaQVPJGYqNvIThRxKQOdrk6m_LxxlqsgjkpOa2GvV4gFZZ3kH-GEI1xkYPbalZdR9zJZq4IP_NuIQ1E2oZWoHy3Vmf1gcuTZB1B1-kidri4iGT5gWhViEMS3r2Fec6v01AOdhSmgshCFAZyCQTvHmEExSvZ77NjKJYt4ltTMsEq4MArgBGnt5CcSC-g-TxzY7zuUzcdhfaS9jOpcoBrF33h-GT5y3qE7j3Kdb7ONX29WgLplI?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6667572,50.1347458,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-27</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwYlyqC9DDOPsWPMVQLpMGR2_bodpq9zeTGzMVctDL5j4rsCVRSZlgVL1hUhX7cJTVl6TdJ-4SX6DDJ-RpI3kzE2v19b99UH5-Ic_j7VZjl_dcuh1kBRF74eUrvbrJjoF0F9j4IMf7bgGxyiJ2GaXtVX7XP619E2wvZc0CMGC8vhUMaGqVeoBItaBmKDuny86SLikyrUAohg3VdEJ55sUEJI-NYPBZbHP1QsJ5CEUMZiG-HDLB5mgV2I40?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwYlyqC9DDOPsWPMVQLpMGR2_bodpq9zeTGzMVctDL5j4rsCVRSZlgVL1hUhX7cJTVl6TdJ-4SX6DDJ-RpI3kzE2v19b99UH5-Ic_j7VZjl_dcuh1kBRF74eUrvbrJjoF0F9j4IMf7bgGxyiJ2GaXtVX7XP619E2wvZc0CMGC8vhUMaGqVeoBItaBmKDuny86SLikyrUAohg3VdEJ55sUEJI-NYPBZbHP1QsJ5CEUMZiG-HDLB5mgV2I40?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6782806,50.1325238,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-28</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gys-108LTRnVo5YGayg6BcjQCf9j7Amz9JugD_jcARBsdCKWKufDKhXwbPwX9VibgJvE9IF2tLlvAiZ_sCVahIYtFNiYVTd1wqOkbIMNAEsXsDK-SzTv3VR0BU42pyRNnmELGOI_M6EgzRTBxOVA2T6vkfr9UsxXWedgeKM4QmTYV-kPSKQtM5sjtdRhgr7I9DnOqMopPmRRgg-QQQP0b7Qyww9yP-vKxvZXKm5a0a1oFRJ7CuszC-BDrg?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gys-108LTRnVo5YGayg6BcjQCf9j7Amz9JugD_jcARBsdCKWKufDKhXwbPwX9VibgJvE9IF2tLlvAiZ_sCVahIYtFNiYVTd1wqOkbIMNAEsXsDK-SzTv3VR0BU42pyRNnmELGOI_M6EgzRTBxOVA2T6vkfr9UsxXWedgeKM4QmTYV-kPSKQtM5sjtdRhgr7I9DnOqMopPmRRgg-QQQP0b7Qyww9yP-vKxvZXKm5a0a1oFRJ7CuszC-BDrg?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.677252,50.1325481,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-29</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gw-3xOLIfJK91enfqdcMlu6BK34WlxVlckeiNtNBOGZMXWHeVB_H3F2jW8hYtY-IOqFB7h6WBhecEnVKJYZwOXt5aLZJ85253Dm-E6zfKogKGUe-sau6EYOapIk-j0ygvq0bwLQEm-v9gPywMwNJf6m9zGcLnzkiAEJwkE5rhXzaZxujNG-Acj2eP7STUdP7Af8S06q90_6GU4qP9gwYivE0yefzcOaTyDd0epngXeyQwjsV6IMj50RShE?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gw-3xOLIfJK91enfqdcMlu6BK34WlxVlckeiNtNBOGZMXWHeVB_H3F2jW8hYtY-IOqFB7h6WBhecEnVKJYZwOXt5aLZJ85253Dm-E6zfKogKGUe-sau6EYOapIk-j0ygvq0bwLQEm-v9gPywMwNJf6m9zGcLnzkiAEJwkE5rhXzaZxujNG-Acj2eP7STUdP7Af8S06q90_6GU4qP9gwYivE0yefzcOaTyDd0epngXeyQwjsV6IMj50RShE?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6730131,50.1340297,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-30</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gwcca72PojsdAz9e7wvAPwQDozo-6h93GstVMRqAOtzYxhLH7FgrHYN01zHd7VHhXYxcQeTOhWUHjjr9nmcw3eGbANK8iUxrQgoFt8OqbLb4EQQytqrHYi1HZ2n9Y15ELu1cFpE24F923ntNxWDeQ2IUUNUsMsjv92zIR-HenA-dgxp_Nl0CjNnY6161HsxHdS9hv8LCLP1lmzHiGnDjFhk5iejYXiwMqkOrs-Q38zU6rtSL3XE_WVnV0E?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gwcca72PojsdAz9e7wvAPwQDozo-6h93GstVMRqAOtzYxhLH7FgrHYN01zHd7VHhXYxcQeTOhWUHjjr9nmcw3eGbANK8iUxrQgoFt8OqbLb4EQQytqrHYi1HZ2n9Y15ELu1cFpE24F923ntNxWDeQ2IUUNUsMsjv92zIR-HenA-dgxp_Nl0CjNnY6161HsxHdS9hv8LCLP1lmzHiGnDjFhk5iejYXiwMqkOrs-Q38zU6rtSL3XE_WVnV0E?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6765992,50.1338907,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-31</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzOI5E3WzY922QXiOUZ_2Zd4h-wsPU3nmoLzFtS8OzLsvUjt1G7fHwTLq_4xTTGcXEKnDONCrTKNzMvoSKwOAzjfUHupVuKy4_J122ROg0GsHFnYKTSVFg37v-VFuFw_dIOwmAoNzjitUOIVck0FE4i1NCs42gyzT2g46Gcx9Y02ai9RGGDQHJeiLuuSm2XkqqsdyqGNLJhU1RzN1Crnc3sFj7IVMQGZfK1zD-fro98Bag5pRiL--jGT9U?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzOI5E3WzY922QXiOUZ_2Zd4h-wsPU3nmoLzFtS8OzLsvUjt1G7fHwTLq_4xTTGcXEKnDONCrTKNzMvoSKwOAzjfUHupVuKy4_J122ROg0GsHFnYKTSVFg37v-VFuFw_dIOwmAoNzjitUOIVck0FE4i1NCs42gyzT2g46Gcx9Y02ai9RGGDQHJeiLuuSm2XkqqsdyqGNLJhU1RzN1Crnc3sFj7IVMQGZfK1zD-fro98Bag5pRiL--jGT9U?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6770739,50.1325107,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-32</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gx9O50eDToX7kY8kNaV6LHtgohfAeRtjkzbDzUsmqYjTj9s8WJKyfgKTjjcLzF_V1NvTibHVgmV6BU4Zj1gBDRcGJoVICs39FvVG8GcUWiwVWOMGhsN9u9Yf0Yf_S1AtX-BF0lawJ2-ZhjKLyfcLYVy1i5-SFiYljE4ED3lzgc-sQjzLUVcTDQJWYdoP8jQx_qQfAHk0Nh9lu-n5lmyblZ62v890cRCyP7pKF5jrQo3BpM3E03EKBzcdo8?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gx9O50eDToX7kY8kNaV6LHtgohfAeRtjkzbDzUsmqYjTj9s8WJKyfgKTjjcLzF_V1NvTibHVgmV6BU4Zj1gBDRcGJoVICs39FvVG8GcUWiwVWOMGhsN9u9Yf0Yf_S1AtX-BF0lawJ2-ZhjKLyfcLYVy1i5-SFiYljE4ED3lzgc-sQjzLUVcTDQJWYdoP8jQx_qQfAHk0Nh9lu-n5lmyblZ62v890cRCyP7pKF5jrQo3BpM3E03EKBzcdo8?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6768141,50.1320566,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-33</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzFl5_dEXbUJ0QFaaN2vpBjWNw949PhRvKX11GIIwPEHgKNLJ3Jorx43A8R1S2zsjVHzBok-t3NZ7ioy8S1JGfw35u4snxR54lvaf8pIXjzZO57cHCypyzZ00Dmo8AO3yp4r2fTa2Sg2xK7tj9xCCW8gWE-a27WmI1NyxLghnKrlZ32Avo-NYLibjFi9oDekOxLTXttg67dW2gLd83-sH5eNyjUeXJawkTs4Czyi2wOtCw0TbccRDZ-ee4?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzFl5_dEXbUJ0QFaaN2vpBjWNw949PhRvKX11GIIwPEHgKNLJ3Jorx43A8R1S2zsjVHzBok-t3NZ7ioy8S1JGfw35u4snxR54lvaf8pIXjzZO57cHCypyzZ00Dmo8AO3yp4r2fTa2Sg2xK7tj9xCCW8gWE-a27WmI1NyxLghnKrlZ32Avo-NYLibjFi9oDekOxLTXttg67dW2gLd83-sH5eNyjUeXJawkTs4Czyi2wOtCw0TbccRDZ-ee4?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6785699,50.1325193,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-34</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GyfMBmphtEFcLApGZ-BJC-HKJRqLPIDFuIVdsO0l0WL7RzE6XBDHjw_vOnQhZvrsfGCGWAKW4JPQs2dV4d7q4SagxR6ZOWF9wrz0qbEQO_VTTd9-GJVadhvmmCczYRSdIqW-Uz9_v_YV32fCRuhchjSzJyBvHIeR-Blr1K8xaXEa1oyXfTPKtcrjBoP8g34Hdxt5eMT1dsfru6FHk9eK0VDuh_l57uVvSpYErI_m5ycP1lKP3ZT5ZFlqJ0?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GyfMBmphtEFcLApGZ-BJC-HKJRqLPIDFuIVdsO0l0WL7RzE6XBDHjw_vOnQhZvrsfGCGWAKW4JPQs2dV4d7q4SagxR6ZOWF9wrz0qbEQO_VTTd9-GJVadhvmmCczYRSdIqW-Uz9_v_YV32fCRuhchjSzJyBvHIeR-Blr1K8xaXEa1oyXfTPKtcrjBoP8g34Hdxt5eMT1dsfru6FHk9eK0VDuh_l57uVvSpYErI_m5ycP1lKP3ZT5ZFlqJ0?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6737396,50.134619,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-35</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gya5Q5ujdQQynxecDdHMyCUrtdqKiOaR-thQEdGJ8rGDStBRQGWNiKgGktnfvK1jSj56Xr9eAwzikqDFFt_JZ4pNazS3BDEXpE8vxqB2d4FSzH_RSZqtpoIno7YIUoL38VVkC7tqxZdzASaiDcbE47adoq89llzXOUX6wYlhk48AU7QgmCv8OZHfp3-HRX7J6yQs5L9VvptbB6kvjvsNZOsSaMbi7mODZfVA8807xj2Im4nrWPohbNVwvA?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gya5Q5ujdQQynxecDdHMyCUrtdqKiOaR-thQEdGJ8rGDStBRQGWNiKgGktnfvK1jSj56Xr9eAwzikqDFFt_JZ4pNazS3BDEXpE8vxqB2d4FSzH_RSZqtpoIno7YIUoL38VVkC7tqxZdzASaiDcbE47adoq89llzXOUX6wYlhk48AU7QgmCv8OZHfp3-HRX7J6yQs5L9VvptbB6kvjvsNZOsSaMbi7mODZfVA8807xj2Im4nrWPohbNVwvA?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6757811,50.1345218,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-36</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GygnhS2dMGk2C9Hzj2Yso-t-3gb_35DYUy2ehhp3iCWp0_JNmT3wOA4MwnAZy8IzIdzomPCgfufNTBzrgp-h03EW6MUZnt71QL4R_BvxZ3ZC1Jkfp1-DJbkOz71tY6XoudkQoGIXUnBjDxG3npjtgg7nX_WKeJKZ0Fm-BFKTgVh3--OdWfhgw3raGCeCvBcjAeZ4Nt6GENJvbXrP6AjYgoRNWH88Lz1SKYubGS8PhPA54AZk4BVvl-DR3Y?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GygnhS2dMGk2C9Hzj2Yso-t-3gb_35DYUy2ehhp3iCWp0_JNmT3wOA4MwnAZy8IzIdzomPCgfufNTBzrgp-h03EW6MUZnt71QL4R_BvxZ3ZC1Jkfp1-DJbkOz71tY6XoudkQoGIXUnBjDxG3npjtgg7nX_WKeJKZ0Fm-BFKTgVh3--OdWfhgw3raGCeCvBcjAeZ4Nt6GENJvbXrP6AjYgoRNWH88Lz1SKYubGS8PhPA54AZk4BVvl-DR3Y?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6798624,50.1324593,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-37</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwRY6UB14UNHwN9Xoxdwk3fJk6iOuvoU4e3Q0s6alXy1pf7Si0NmKtZSsDt2tm17nOS8PNwi4yXHGc37hnhGpMIJuVP9tsijQoEpXOvLdiEHcMzn3o8QHFNcgQGo-v0-sM0KDMov9vvYWu_4JccKFtanGF9A7In4fBlcgVFYJ6JGj_eQBlW3Wj7KWW0m2kwQjg8s8cyDKrAnSmX6q4kTYcjMCAowwMJaqAvaG7KvBCJceK8WcZ5dwATzS8?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwRY6UB14UNHwN9Xoxdwk3fJk6iOuvoU4e3Q0s6alXy1pf7Si0NmKtZSsDt2tm17nOS8PNwi4yXHGc37hnhGpMIJuVP9tsijQoEpXOvLdiEHcMzn3o8QHFNcgQGo-v0-sM0KDMov9vvYWu_4JccKFtanGF9A7In4fBlcgVFYJ6JGj_eQBlW3Wj7KWW0m2kwQjg8s8cyDKrAnSmX6q4kTYcjMCAowwMJaqAvaG7KvBCJceK8WcZ5dwATzS8?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6767464,50.1317032,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-38</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxHUwyUT97tJ9jcEuABnmnA3Xu5_T0Sy83QuvKAJTxy-0ib_QQ_yF8_d2sK9pWPh8tlZUvrRw9Gtxtykss6o3WrrJlTgU_fU4LgJvpgSBwxBEzYpW8rGfL3oIdevbTnw-rZ3WqUxrt7rBeKqxY9tUd8Dh8soJm_ELYicY4Ip_WnppOwXYG_n2ME_V235wFY1Kql-FTPUfhzH9z6dOtGI_ixY_EpNKyf5G0oXE7HsmTKyQcpohCexBF4eFY?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxHUwyUT97tJ9jcEuABnmnA3Xu5_T0Sy83QuvKAJTxy-0ib_QQ_yF8_d2sK9pWPh8tlZUvrRw9Gtxtykss6o3WrrJlTgU_fU4LgJvpgSBwxBEzYpW8rGfL3oIdevbTnw-rZ3WqUxrt7rBeKqxY9tUd8Dh8soJm_ELYicY4Ip_WnppOwXYG_n2ME_V235wFY1Kql-FTPUfhzH9z6dOtGI_ixY_EpNKyf5G0oXE7HsmTKyQcpohCexBF4eFY?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6780523,50.1296262,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-39</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxlCUYil-RKIknRAvWR53XEtQ9voV6aPHzJUmrZGPPmedn0ht5UQ0DejI3wiZ_pxUS7Ct2sI_htmYGtZ6T6sQWTa3_F7lWHN8UVp7zixHavpnkCSHHJHrNHlFQwyLHvjhFDbj-0mjuxOVxgL_hwusDqdmptWSEQ2vfWJKsfoNEgiJ7VKyOhdjMRLXSdnDZBpOSNzx7O94kgZb1uzGl2W4RUyvlTCiUJkJ_YJVscYttpFfA3KgpJHsDcwzQ?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxlCUYil-RKIknRAvWR53XEtQ9voV6aPHzJUmrZGPPmedn0ht5UQ0DejI3wiZ_pxUS7Ct2sI_htmYGtZ6T6sQWTa3_F7lWHN8UVp7zixHavpnkCSHHJHrNHlFQwyLHvjhFDbj-0mjuxOVxgL_hwusDqdmptWSEQ2vfWJKsfoNEgiJ7VKyOhdjMRLXSdnDZBpOSNzx7O94kgZb1uzGl2W4RUyvlTCiUJkJ_YJVscYttpFfA3KgpJHsDcwzQ?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6780523,50.1296262,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-40</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxUV3GzGHaYzCznHUz7nbrQPo4UjkeOhTaLSATJwfQ_llyQxv4TzkK3Zh6clISzDrDWyzzSnOu0fq3AB2CAT5LTZjsVI3ZfLiX125DckpeWRTH9tZj9foHDK3qoR6072uJuoe3ronvZ_Vu6UlEja1W9s5tWmLsi7AO-sbEl7C72k0HfjnWQ-YL0tB3Wecr2NDmpG7t3ATw9S_JGBOa2Oz1B7K5J8GlWVh0oLUWwQYlsWF4bWoN7E54uego?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxUV3GzGHaYzCznHUz7nbrQPo4UjkeOhTaLSATJwfQ_llyQxv4TzkK3Zh6clISzDrDWyzzSnOu0fq3AB2CAT5LTZjsVI3ZfLiX125DckpeWRTH9tZj9foHDK3qoR6072uJuoe3ronvZ_Vu6UlEja1W9s5tWmLsi7AO-sbEl7C72k0HfjnWQ-YL0tB3Wecr2NDmpG7t3ATw9S_JGBOa2Oz1B7K5J8GlWVh0oLUWwQYlsWF4bWoN7E54uego?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6810644,50.1297122,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-41</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzhMXS42EDY71VtkO7Lgpxzi536Ub6TQr3C1pFyPrIzv6it2WoogRimcLwGYdpDkOm64ueFeh8CJQ-RQu0vy5eNYsLQKlwxAFUiK-N7PBarUv_bxRcmFZvRCUHc0eTBht4ZLmD43Ht9sGg3d0L3Z-HgwdWE4Pk_rNnNUA4JvTZn8rJ4AN7SWApyinsReQafF4WDRAODoCW7ZHMs8hlX7yJgL3i4P4ObPI0_icguoLo5_1zRfubYL3ilgSg?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzhMXS42EDY71VtkO7Lgpxzi536Ub6TQr3C1pFyPrIzv6it2WoogRimcLwGYdpDkOm64ueFeh8CJQ-RQu0vy5eNYsLQKlwxAFUiK-N7PBarUv_bxRcmFZvRCUHc0eTBht4ZLmD43Ht9sGg3d0L3Z-HgwdWE4Pk_rNnNUA4JvTZn8rJ4AN7SWApyinsReQafF4WDRAODoCW7ZHMs8hlX7yJgL3i4P4ObPI0_icguoLo5_1zRfubYL3ilgSg?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6791915,50.1296918,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-42</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwV0DK3xwBW0nQYLZnJfVFE-Hf5mF4j7cT-QgvgJDRppet07wonqBIFVmQLWXHq2oVDto_mlVSDjT4ja7rSMPagnr89DRVPhwEqFwKlenec2xllphdbooK6IreOmlKOcw2_9OdtEJw6R7NhgQOznMqiQbIaL_1SzFI4b6lJ5xHix5P-fI8uy6L61nkU5GQvRB-gB9Y52nl1_eP3AxTEl5vfbr2sTsUGWzVgsTHbDgieEDvVswe-mJXIhNg?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwV0DK3xwBW0nQYLZnJfVFE-Hf5mF4j7cT-QgvgJDRppet07wonqBIFVmQLWXHq2oVDto_mlVSDjT4ja7rSMPagnr89DRVPhwEqFwKlenec2xllphdbooK6IreOmlKOcw2_9OdtEJw6R7NhgQOznMqiQbIaL_1SzFI4b6lJ5xHix5P-fI8uy6L61nkU5GQvRB-gB9Y52nl1_eP3AxTEl5vfbr2sTsUGWzVgsTHbDgieEDvVswe-mJXIhNg?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6797062,50.129765,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-43</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GyK4E7XO57yumfA8mCgXYNZNUiQzLYn1Pn7Xw-xCEKJxqAiNxGJ9PM3HOBU2rWaqHgaIX-0q49J_RLOODhhg-FyomGLzIQ8r4Xyb8xNqC0G9BfObMADPMChChPw4E4O4PsxOvcUC3xQyKqM5WjcEFlY5ytHqRNduC0V7YdkENP-sz4J1AdVshNto4Qc-V-y0xvV6X60vNajTml9aEK0EZPlT67kdN2WwgpcQkDcdgHxsZAvltCd_F0i45k?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GyK4E7XO57yumfA8mCgXYNZNUiQzLYn1Pn7Xw-xCEKJxqAiNxGJ9PM3HOBU2rWaqHgaIX-0q49J_RLOODhhg-FyomGLzIQ8r4Xyb8xNqC0G9BfObMADPMChChPw4E4O4PsxOvcUC3xQyKqM5WjcEFlY5ytHqRNduC0V7YdkENP-sz4J1AdVshNto4Qc-V-y0xvV6X60vNajTml9aEK0EZPlT67kdN2WwgpcQkDcdgHxsZAvltCd_F0i45k?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6777361,50.1310673,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-44</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gx2OYbfrDKJNh-hkT33hmPpuviKjyOmw3hhYTb4TjXlJH2TuCD1xp5Oizr3BjeScjGDTvOwrxIQ8kb_XhQtwf4v6V3DojMl69jIrpb1n5wvmQuGvEnfDL5ZmAP6PN--dUyPFEc6BZFnlMj19FJs1MLFS_dGbbAjw5m4d0O-56xM_X0ENOVfgp_k8oKSxt3vJRu_z7MFFGPoYNI8JN9bolRdaylXLopcK4qMe8qPEFZ2Qi_4ieV5lCs9RQg?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gx2OYbfrDKJNh-hkT33hmPpuviKjyOmw3hhYTb4TjXlJH2TuCD1xp5Oizr3BjeScjGDTvOwrxIQ8kb_XhQtwf4v6V3DojMl69jIrpb1n5wvmQuGvEnfDL5ZmAP6PN--dUyPFEc6BZFnlMj19FJs1MLFS_dGbbAjw5m4d0O-56xM_X0ENOVfgp_k8oKSxt3vJRu_z7MFFGPoYNI8JN9bolRdaylXLopcK4qMe8qPEFZ2Qi_4ieV5lCs9RQg?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.677891,50.1309901,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-45</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxgTVkvtQ6VmeJKgLEzBpbaiWU88CJsEcrauL_kp1GJX1Kp5_1LqUuID6GsK0RO7V4IfWcYOCOHgJ9Ie-Nkg3uUDOlqTYoU_sGv0J4IVb-6DJRFdDppbMTc-C8B0dLPf01HxRxFKsIYrXtoNcFuWIa0qtdTLIkU3-Vpnf8BBXPH6PDALgRwmuHhCVSpTDbZyFmSiEOwaqU9VbQeSeOq1RZtq0ai4RuaUub47fzsQUNIBWq8mQ17mH30NYw?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxgTVkvtQ6VmeJKgLEzBpbaiWU88CJsEcrauL_kp1GJX1Kp5_1LqUuID6GsK0RO7V4IfWcYOCOHgJ9Ie-Nkg3uUDOlqTYoU_sGv0J4IVb-6DJRFdDppbMTc-C8B0dLPf01HxRxFKsIYrXtoNcFuWIa0qtdTLIkU3-Vpnf8BBXPH6PDALgRwmuHhCVSpTDbZyFmSiEOwaqU9VbQeSeOq1RZtq0ai4RuaUub47fzsQUNIBWq8mQ17mH30NYw?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6797689,50.1309334,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-46</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxzreCTflMvsk48ArCWhFcmhQ3rZvhUjg3aDZUTy4I-VHWSse7I38ONubvZV_IUZmfCq2JCio7TdL_5l7O2_PG86wmOfrg3Wdi2S5kMtBbQyItGIJDRErpTAOliPhc_Ks15Ij1P2OMAYjL-3d6443Psh2p6V_oz9jwgmhqrX10Upa9SRwXMRvwZtFCJNhFWB7XHXam-8nckr_dyiSO5ht2K0KJhR7Te7wC2PX1LgEHETdlNU6tIl74oVVM?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxzreCTflMvsk48ArCWhFcmhQ3rZvhUjg3aDZUTy4I-VHWSse7I38ONubvZV_IUZmfCq2JCio7TdL_5l7O2_PG86wmOfrg3Wdi2S5kMtBbQyItGIJDRErpTAOliPhc_Ks15Ij1P2OMAYjL-3d6443Psh2p6V_oz9jwgmhqrX10Upa9SRwXMRvwZtFCJNhFWB7XHXam-8nckr_dyiSO5ht2K0KJhR7Te7wC2PX1LgEHETdlNU6tIl74oVVM?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6807925,50.1316317,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-47</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gz_FJhtPLfnYiqHorEk_HYxLDtTMOmvRx5KCXpRJyxvK9m7aHvK6hDToq1b5vU21Y57z5RT_59vBbRo_kohkz6Y_wmrbRAfZkZvZwPygY4Vb4lr7J8D1da6RNdE_IWri4MQq0JmRPv-iPohuvPB1dbs21sp2vL5qycNeD__arrENFEr_Tahcl9n1MA7Qa3nYTYIP3ZbLBpf1onS8kuEunZKxiWgamms5GQV2c8ucCiH3ZWlFWinposKRAs?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gz_FJhtPLfnYiqHorEk_HYxLDtTMOmvRx5KCXpRJyxvK9m7aHvK6hDToq1b5vU21Y57z5RT_59vBbRo_kohkz6Y_wmrbRAfZkZvZwPygY4Vb4lr7J8D1da6RNdE_IWri4MQq0JmRPv-iPohuvPB1dbs21sp2vL5qycNeD__arrENFEr_Tahcl9n1MA7Qa3nYTYIP3ZbLBpf1onS8kuEunZKxiWgamms5GQV2c8ucCiH3ZWlFWinposKRAs?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6764369,50.130979,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-48</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxhPmsZY3ndhYwMcnYOfJAiglGcc5jAM2r3TSsBZuxbfFweHf-XkQ0GjYxj-gbxPumPiv4U4urAqA508BZPMco7niMCAn7hX1iB3B_NbHvzIPo-4TPLyygzK2d_tc_T4JQlkriBBP3TZQp0j_N_ZIyBm7MNpoq3yBt-FIqLX39KDEZ0oGF4cq6sornyu-BVLvarJGdjd8LmHXjpunmqn-OUjggggka63KVi7UWyXMtt6qIlxvVUphrXbh0?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxhPmsZY3ndhYwMcnYOfJAiglGcc5jAM2r3TSsBZuxbfFweHf-XkQ0GjYxj-gbxPumPiv4U4urAqA508BZPMco7niMCAn7hX1iB3B_NbHvzIPo-4TPLyygzK2d_tc_T4JQlkriBBP3TZQp0j_N_ZIyBm7MNpoq3yBt-FIqLX39KDEZ0oGF4cq6sornyu-BVLvarJGdjd8LmHXjpunmqn-OUjggggka63KVi7UWyXMtt6qIlxvVUphrXbh0?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.670247,50.1312044,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-49</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gw6aB5byAGu0sHLk0FZHguexpbxT1cA-AFKy_hmZteIm5pZ6XA3uVpr5gcduYjpcnc72L9i0NMSUNDpTlKhgErx3VNsGK51MewgEUldVMO9VgfNsBkQneTSFgFSJdHyAt5DnFUmPURw2sdC0zvkVrDdUt3-frebZVBHC1p3TojqtYcPCwtYZLsQpzjDaCC-8-Jy6jxXmEh4NSGknTBXA6Mkcr3o4V4U-e83wAoT9YphCi1fvK-1dBvCPbc?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gw6aB5byAGu0sHLk0FZHguexpbxT1cA-AFKy_hmZteIm5pZ6XA3uVpr5gcduYjpcnc72L9i0NMSUNDpTlKhgErx3VNsGK51MewgEUldVMO9VgfNsBkQneTSFgFSJdHyAt5DnFUmPURw2sdC0zvkVrDdUt3-frebZVBHC1p3TojqtYcPCwtYZLsQpzjDaCC-8-Jy6jxXmEh4NSGknTBXA6Mkcr3o4V4U-e83wAoT9YphCi1fvK-1dBvCPbc?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6780523,50.1296262,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-50</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxYnR6p_8VyosFxIdy-dOzv9VISOkKeh5durFR_5AM-UqQgdqC87u7j7NT402wAQKmpbC1fIKtKo65uf1ZmVX6Udvwhls5fSNNFHxh0SYcG2Mo7yLUnKf5peoBhjss6WmY07HahYgrVp0XkqKczmj_KPtiNh9e6T_Lx4Z94Tki_M-P0GZGFe4JTy3gsLQemHJtNjO7s5mLCVSeEZthrMeqr2DzlHomTcfNsdTVyBZR6Z1XaSTgkUDD_qT4?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxYnR6p_8VyosFxIdy-dOzv9VISOkKeh5durFR_5AM-UqQgdqC87u7j7NT402wAQKmpbC1fIKtKo65uf1ZmVX6Udvwhls5fSNNFHxh0SYcG2Mo7yLUnKf5peoBhjss6WmY07HahYgrVp0XkqKczmj_KPtiNh9e6T_Lx4Z94Tki_M-P0GZGFe4JTy3gsLQemHJtNjO7s5mLCVSeEZthrMeqr2DzlHomTcfNsdTVyBZR6Z1XaSTgkUDD_qT4?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6812381,50.1300208,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-51</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzVIwb5YXTC-QtyvA2B2EhP7ElPeLW8LvpqhGYnPPrgwjJD-BTdcUDyf5jAxrWHDc_5ZVMD9Ot8eOigGRq6VuY57fhQcI2Ks8mTIkkUaEwN_GnP1m77O4HCFW8_7oZqDMLaq88T4AHfWRgCtMUSWyr8vmNAc4C8doccbatbBUYmCG3VTbluYBTGIZtmZS39rwbd9EYuNIyEfhrwKnRrRCx3FMXUwqJRSinlKXCks7rwxXcLFtijcO6iTY4?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzVIwb5YXTC-QtyvA2B2EhP7ElPeLW8LvpqhGYnPPrgwjJD-BTdcUDyf5jAxrWHDc_5ZVMD9Ot8eOigGRq6VuY57fhQcI2Ks8mTIkkUaEwN_GnP1m77O4HCFW8_7oZqDMLaq88T4AHfWRgCtMUSWyr8vmNAc4C8doccbatbBUYmCG3VTbluYBTGIZtmZS39rwbd9EYuNIyEfhrwKnRrRCx3FMXUwqJRSinlKXCks7rwxXcLFtijcO6iTY4?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6806158,50.1297124,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПГ-52</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwmxCmglSb5h26mvol3CxjFffpqMuEOMbCtgTc2csafx8aWxUOtjBdNo0enwsA_X6rQJw2rGBxU6kImWf3v8RSzTuHq8L5WnyXDJ1u12DmgHFOXRzmrHlvMKKA_e11XXh1Vk3MQqim42mvrMg-XbehpNB71BCgnFgbpbAnGPG0TuUC6_nCni8iPKsqw7_bTBiU7enA-ZtadIBjjFjSSPczSTK1wwZP-Wq3POrE16GOeCQq-cFB0x6LFmzo?authuser=0&fife=s16383" height="200" width="auto" /><br><br>ПрАТ "ККПК" вул.Київська,130]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwmxCmglSb5h26mvol3CxjFffpqMuEOMbCtgTc2csafx8aWxUOtjBdNo0enwsA_X6rQJw2rGBxU6kImWf3v8RSzTuHq8L5WnyXDJ1u12DmgHFOXRzmrHlvMKKA_e11XXh1Vk3MQqim42mvrMg-XbehpNB71BCgnFgbpbAnGPG0TuUC6_nCni8iPKsqw7_bTBiU7enA-ZtadIBjjFjSSPczSTK1wwZP-Wq3POrE16GOeCQq-cFB0x6LFmzo?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6801903,50.1296627,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ПВ-24000</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwQqvAxJOhSPflR6ceZNEL1YsYVUntww5tTzX9qRHTyyeIzAEa6nnQlI5vk0wqD3NT5gwa7uniiBGM7BNUXYUPa44Gi0AmZgb9nfo_gZ8R7dRI6wTxxfd9ub1b3GwfK-yD8GF0HCFg0KBPDXnf44GgqZOf6i52yPJFSaraw7pzWyai4ZEPC_yC7TrrcscFEF8F3chFtLurcuO3IQ0I0XNx2dB3sqfx9AmcB6dUQzCMHlSCgr2d1aqcDXgg?authuser=0&fife=s16383" height="200" width="auto" /><br><br>пожежне водоймище з підїздом з асфальтованим покриттям для забору води пожежними автоцистернами, гідроелеваторами, потопомпами]]></description>
+        <styleUrl>#icon-1575-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwQqvAxJOhSPflR6ceZNEL1YsYVUntww5tTzX9qRHTyyeIzAEa6nnQlI5vk0wqD3NT5gwa7uniiBGM7BNUXYUPa44Gi0AmZgb9nfo_gZ8R7dRI6wTxxfd9ub1b3GwfK-yD8GF0HCFg0KBPDXnf44GgqZOf6i52yPJFSaraw7pzWyai4ZEPC_yC7TrrcscFEF8F3chFtLurcuO3IQ0I0XNx2dB3sqfx9AmcB6dUQzCMHlSCgr2d1aqcDXgg?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            30.6649685,50.1351113,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

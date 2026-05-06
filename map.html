@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test Map</title>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAeRc4o5wN__tvYrXKNKYyrgcwQnvSnhQ"></script>
+
+  <script>
+  let map;
+
+  function initMap() {
+
+    map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 12,
+      center: { lat: 50.4501, lng: 30.5234 }
+    });
+
+    // 🔥 Завантаження KML
+    const kmlLayer = new google.maps.KmlLayer({
+      url: "http://localhost:8000/Карта.kml",
+      map: map
+    });
+
+  }
+</script>
+
+  <style>
+    #map {
+      height: 100vh;
+      width: 100%;
+    }
+  </style>
+</head>
+
+<body onload="initMap()">
+  <div id="map"></div>
+
+<div style="
+  position:absolute;
+  top:10px;
+  left:10px;
+  background:white;
+  padding:10px;
+  z-index:5;
+  border-radius:8px;
+  font-family:Arial;
+">
+  <label>
+    <input type="checkbox" checked onchange="toggleHydrants(this.checked)">
+    🔥 Hydrants
+  </label>
+  <br>
+  <label>
+    <input type="checkbox" checked onchange="toggleWater(this.checked)">
+    💧 Water
+  </label>
+</div>
+  
+</body>
+</html>

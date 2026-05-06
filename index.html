@@ -1,32 +1,296 @@
-<h2>🗺️ Карти</h2>
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maps System</title>
 
-<div style="display:flex; gap:8px; margin-bottom:15px;">
+  <style>
+    html, body {
+      margin: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+      overflow: hidden;
+    }
 
-  <input
-    type="text"
-    id="placeInput"
-    placeholder="Місто / село..."
-    style="
-      flex:1;
-      padding:12px;
-      border-radius:8px;
-      border:1px solid #cbd5e1;
-      font-size:15px;
-    "
-  >
+    #loginScreen {
+      position: fixed;
+      inset: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #111827;
+      color: white;
+      z-index: 9999;
+    }
 
-  <button
-    onclick="searchPlace()"
-    style="
-      padding:12px;
-      border:none;
-      border-radius:8px;
-      background:#2563eb;
-      color:white;
-      cursor:pointer;
-    "
-  >
-    🔍
-  </button>
+    #loginBox {
+      background: #1f2937;
+      padding: 30px;
+      border-radius: 12px;
+      width: 320px;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    }
+
+    #loginBox input {
+      width: 100%;
+      padding: 12px;
+      margin-top: 15px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      box-sizing: border-box;
+    }
+
+    #loginBox button {
+      margin-top: 15px;
+      width: 100%;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      background: #2563eb;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    #app {
+      display: none;
+      height: 100%;
+    }
+
+    #sidebar {
+      width: 300px;
+      background: #f3f4f6;
+      height: 100%;
+      overflow-y: auto;
+      position: fixed;
+      left: 0;
+      top: 0;
+      border-right: 1px solid #d1d5db;
+      padding: 15px;
+      box-sizing: border-box;
+      z-index: 10;
+    }
+
+    #sidebar h2 {
+      margin-top: 0;
+    }
+
+    .mapButton {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      background: white;
+      cursor: pointer;
+      font-size: 15px;
+      text-align: left;
+      transition: 0.2s;
+      border: 1px solid #d1d5db;
+    }
+
+    .mapButton:hover {
+      background: #e5e7eb;
+    }
+
+    #mapContainer {
+      margin-left: 300px;
+      height: 100%;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .searchBox {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 15px;
+    }
+
+    .searchBox input {
+      flex: 1;
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #cbd5e1;
+      font-size: 15px;
+    }
+
+    .searchBox button {
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      background: #2563eb;
+      color: white;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+
+      #sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+
+      #mapContainer {
+        margin-left: 0;
+        height: calc(100% - 420px);
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- 🔐 LOGIN -->
+<div id="loginScreen">
+
+  <div id="loginBox">
+
+    <h2>🔐 Доступ до карти</h2>
+
+    <input
+      type="password"
+      id="passwordInput"
+      placeholder="Введіть пароль"
+    >
+
+    <button onclick="checkPassword()">
+      Увійти
+    </button>
+
+  </div>
 
 </div>
+
+<!-- 🗺️ APP -->
+<div id="app">
+
+  <!-- 📂 SIDEBAR -->
+  <div id="sidebar">
+
+    <h2>🗺️ Карти</h2>
+
+    <!-- 🔍 SEARCH -->
+    <div class="searchBox">
+
+      <input
+        type="text"
+        id="placeInput"
+        placeholder="Місто / село..."
+        onkeypress="handleEnter(event)"
+      >
+
+      <button onclick="searchPlace()">
+        🔍
+      </button>
+
+    </div>
+
+    <!-- 🗺️ MAP BUTTONS -->
+
+    <button class="mapButton"
+      onclick="loadMap('https://www.google.com/maps/d/u/0/embed?mid=1ft_7LC679wKmp4ugU59aus0PY8dhW0M&ehbc=2E312F&noprof=1')">
+      1-ДПРЗ
+    </button>
+
+    <button class="mapButton"
+      onclick="loadMap('https://www.google.com/maps/d/u/0/embed?mid=18_oUcEtNwJGH2M6aY_O85O053OF8Z8k&ehbc=2E312F&noprof=1')">
+      2-ДПРЗ
+    </button>
+
+    <button class="mapButton"
+      onclick="loadMap('https://www.google.com/maps/d/u/0/embed?mid=1C4DmaswN9T1Rwn58RTev_HDAGaExXmA&ehbc=2E312F&noprof=1')">
+      6-ДПРЗ
+    </button>
+
+    <button class="mapButton"
+      onclick="loadMap('https://www.google.com/maps/d/u/0/embed?mid=1ANEDTSMTCzZ9xCG9rO2CSHSTSVkwnGc&ehbc=2E312F&noprof=1')">
+      9-ДПРЗ
+    </button>
+
+    <button class="mapButton"
+      onclick="loadMap('https://www.google.com/maps/d/u/0/embed?mid=1f8AOwVQtWLFJZP-nw9zeZlUyGSHtBcg&ehbc=2E312F&noprof=1')">
+      11-ДПРЗ
+    </button>
+
+    <button class="mapButton"
+      onclick="loadMap('https://www.google.com/maps/d/u/0/embed?mid=1Nx0nH2aE_-M8qz97Ap2ipD0AYEDuKtY&ehbc=2E312F&noprof=1')">
+      43-ДПРЧ
+    </button>
+
+  </div>
+
+  <!-- 🌍 MAP -->
+  <div id="mapContainer">
+
+    <iframe
+      id="mapFrame"
+      src="https://www.google.com/maps/d/u/0/embed?mid=1ft_7LC679wKmp4ugU59aus0PY8dhW0M&ehbc=2E312F&noprof=1">
+    </iframe>
+
+  </div>
+
+</div>
+
+<script>
+
+  // 🔐 PASSWORD
+  const PASSWORD = "1234";
+
+  function checkPassword() {
+
+    const input = document.getElementById("passwordInput").value;
+
+    if (input === PASSWORD) {
+
+      document.getElementById("loginScreen").style.display = "none";
+      document.getElementById("app").style.display = "block";
+
+    } else {
+
+      alert("Невірний пароль");
+
+    }
+  }
+
+  // 🗺️ LOAD MAP
+  function loadMap(url) {
+
+    document.getElementById("mapFrame").src = url;
+
+  }
+
+  // 🔍 SEARCH PLACE
+  function searchPlace() {
+
+    const place = document.getElementById("placeInput").value;
+
+    if (!place) return;
+
+    window.open(
+      "https://www.google.com/maps/search/" + encodeURIComponent(place),
+      "_blank"
+    );
+  }
+
+  // ⌨️ ENTER SEARCH
+  function handleEnter(event) {
+
+    if (event.key === "Enter") {
+      searchPlace();
+    }
+
+  }
+
+</script>
+
+</body>
+</html>

@@ -1,68 +1,56 @@
 <!DOCTYPE html>
-      position: { lat: point.lat, lng: point.lng },
-      map: map,
-      title: point.name,
-      icon: "http://maps.google.com/mapfiles/ms/icons/red-dot.png"
-    });
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GIS Map</title>
 
-    const infoWindow = new google.maps.InfoWindow({
-      content: `<b>${point.name}</b><br>Гідрант`
-    });
+  <script src="data.js"></script>
 
-    marker.addListener("click", () => {
-      infoWindow.open(map, marker);
-    });
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAeRc4o5wN__tvYrXKNKYyrgcwQnvSnhQ&libraries=places"></script>
 
-    hydrantMarkers.push(marker);
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
 
-  });
+    #map {
+      height: 100%;
+      width: 100%;
+    }
 
-  // 💧 WATER
-  water.forEach(point => {
+    #panel {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      z-index: 10;
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+      width: 300px;
+    }
 
-    const marker = new google.maps.Marker({
-      position: { lat: point.lat, lng: point.lng },
-      map: map,
-      title: point.name,
-      icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
-    });
+    #searchInput {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
 
-    const infoWindow = new google.maps.InfoWindow({
-      content: `<b>${point.name}</b><br>Вода`
-    });
+    .btn {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 8px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      background: #f3f4f6;
+    }
 
-    marker.addListener("click", () => {
-      infoWindow.open(map, marker);
-    });
-
-    waterMarkers.push(marker);
-
-  });
-}
-
-// 🔥 TOGGLE HYDRANTS
-function toggleHydrants() {
-
-  hydrantsVisible = !hydrantsVisible;
-
-  hydrantMarkers.forEach(marker => {
-    marker.setMap(hydrantsVisible ? map : null);
-  });
-}
-
-// 💧 TOGGLE WATER
-function toggleWater() {
-
-  waterVisible = !waterVisible;
-
-  waterMarkers.forEach(marker => {
-    marker.setMap(waterVisible ? map : null);
-  });
-}
-
-window.onload = initMap;
-
-</script>
-
-</body>
 </html>

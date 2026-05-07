@@ -6,7 +6,7 @@
   <title>KML GIS Map</title>
 
   <!-- Google Maps API -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAeRc4o5wN__tvYrXKNKYyrgcwQnvSnhQ&libraries=places"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places"></script>
 
   <style>
     html, body {
@@ -168,11 +168,44 @@ function initMap() {
 
         const lat = parseFloat(coords[1]);
 
+        // 🎨 ICON
+        let iconUrl =
+          "http://maps.google.com/mapfiles/ms/icons/red-dot.png";
+
+        // 💧 WATER
+        if (
+          name.toLowerCase().includes("вв") ||
+          name.toLowerCase().includes("water")
+        ) {
+
+          iconUrl =
+            "http://maps.google.com/mapfiles/ms/icons/blue-dot.png";
+
+        }
+
+        // ⚠️ OTHER
+        if (
+          name.toLowerCase().includes("ризик")
+        ) {
+
+          iconUrl =
+            "http://maps.google.com/mapfiles/ms/icons/yellow-dot.png";
+
+        }
+
         // 📍 MARKER
         const marker = new google.maps.Marker({
+
           position: { lat, lng },
+
           map: map,
-          title: name
+
+          title: name,
+
+          icon: {
+            url: iconUrl
+          }
+
         });
 
         // 🖼️ PARSE HTML
@@ -180,13 +213,6 @@ function initMap() {
           document.createElement("div");
 
         tempDiv.innerHTML = description;
-
-        // 📷 IMAGE
-        const img =
-          tempDiv.querySelector("img");
-
-        const imgSrc =
-          img ? img.src : "";
 
         // 📝 CLEAN TEXT
         const cleanText =
@@ -208,21 +234,6 @@ function initMap() {
               ">
                 ${name}
               </h2>
-
-              ${
-                imgSrc
-                  ? `
-                    <img
-                      src="${imgSrc}"
-                      style="
-                        width:100%;
-                        border-radius:10px;
-                        margin-bottom:10px;
-                      "
-                    >
-                  `
-                  : ""
-              }
 
               <div style="
                 font-size:15px;

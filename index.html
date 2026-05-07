@@ -6,7 +6,7 @@
   <title>KML GIS Map</title>
 
   <!-- Google Maps API -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAeRc4o5wN__tvYrXKNKYyrgcwQnvSnhQ&libraries=places"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places"></script>
 
   <style>
     html, body {
@@ -56,21 +56,6 @@
 
     .btn:hover {
       background: #e5e7eb;
-    }
-
-    .popup img {
-      max-width: 100%;
-      border-radius: 8px;
-      margin-top: 10px;
-    }
-
-    .popup {
-      max-width: 320px;
-      font-size: 14px;
-    }
-
-    .popup h3 {
-      margin-top: 0;
     }
   </style>
 </head>
@@ -167,7 +152,7 @@ function initMap() {
             ? nameNode.textContent
             : "Точка";
 
-        // 📝 DESCRIPTION WITH HTML
+        // 📝 DESCRIPTION
         const description =
           descNode
             ? descNode.innerHTML
@@ -190,16 +175,62 @@ function initMap() {
           title: name
         });
 
+        // 🖼️ PARSE HTML
+        const tempDiv =
+          document.createElement("div");
+
+        tempDiv.innerHTML = description;
+
+        // 📷 IMAGE
+        const img =
+          tempDiv.querySelector("img");
+
+        const imgSrc =
+          img ? img.src : "";
+
+        // 📝 CLEAN TEXT
+        const cleanText =
+          tempDiv.innerText || "";
+
         // ℹ️ POPUP
         const infoWindow =
           new google.maps.InfoWindow({
 
           content: `
-            <div class="popup">
+            <div style="
+              max-width:320px;
+              font-family:Arial;
+            ">
 
-              <h3>${name}</h3>
+              <h2 style="
+                margin-top:0;
+                font-size:20px;
+              ">
+                ${name}
+              </h2>
 
-              ${description}
+              ${
+                imgSrc
+                  ? `
+                    <img
+                      src="${imgSrc}"
+                      style="
+                        width:100%;
+                        border-radius:10px;
+                        margin-bottom:10px;
+                      "
+                    >
+                  `
+                  : ""
+              }
+
+              <div style="
+                font-size:15px;
+                line-height:1.4;
+                white-space:pre-line;
+              ">
+                ${cleanText}
+              </div>
 
             </div>
           `
